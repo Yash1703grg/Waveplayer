@@ -1,0 +1,30 @@
+nav{
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: #1B2B3B;
+    color: lightblue;
+    align-items: center;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.logo img{
+    width: 45px;
+    padding-right: 8px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}

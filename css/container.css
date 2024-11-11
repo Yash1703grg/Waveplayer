@@ -1,0 +1,60 @@
+.container{
+
+    min-height: 73.4vh;
+    margin: 20px auto;
+    font-family: "Varela Round", sans-serif;
+    color: #1B2B3B;
+    width: 75%;
+}
+
+.playlist{
+    display: flex;
+    align-items: flex-end;
+}
+.playlist-details{
+    margin: 0 20px;
+}
+
+.playlist-banner img{
+    width: 220px;
+}
+
+.playlist-details h1{
+    font-weight:900;
+    font-size: 40px;
+}
+
+.song-list{
+    margin: 20px 0;
+}
+
+
+.song{
+    height: 50px;
+    display: flex;
+    background-color: rgb(197, 223, 232);
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.song:hover{
+    background-color: rgb(209, 226, 231);;
+}
+
+.song img{
+    width: 37px;
+    margin: 0 25px;
+}
+
+.timestamp{
+    margin: 0 25px;
+}
+
+.song span i{
+    margin-right: 12.5px;
+    cursor: pointer;
+}

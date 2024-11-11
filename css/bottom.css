@@ -1,0 +1,101 @@
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 95px;
+    background-color: #1B2B3B;
+    bottom: 0;
+    flex-direction: column;
+    font-family: "Varela Round", sans-serif;
+}
+
+.nowPlaying {
+    display: flex;
+    position: absolute;
+    left: 5vw;
+    height: 50px;
+    color: lightblue;
+    align-items: flex-end;
+}
+
+.nowPlaying img {
+    width: 50px;
+    margin: 0 20px;
+}
+
+.icons {
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.icons i{
+    margin: 0 1.1vw;
+}
+.icons i,
+.volumeSection i {
+    color: #add8e6;
+    cursor: pointer;
+}
+
+.icons i:hover,
+.volumeSection i:hover {
+    color: #c8e2ec;
+}
+
+#previous:hover{
+    font-size: 27px;
+    margin: 0 1.03vw;
+}
+
+#seekPrevious:hover{
+    font-size: 27px;
+    margin: 0 1.03vw;
+}
+
+#masterPlay:hover{
+    font-size: 27px;
+    margin: 0 1.03vw;
+}
+
+#seekNext:hover{
+    font-size: 27px;
+    margin: 0 1.03vw;
+}
+
+#next:hover{
+    font-size: 27px;
+    margin: 0 1.03vw;
+}
+
+
+#progressBar {
+    width: 40vw;
+    cursor: pointer;
+    height: 3px;
+    margin-bottom: 0px;
+    color: lightblue;
+}
+
+.volumeSection {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5vw;
+    gap: 10px;
+}
+
+#volumeBar {
+    cursor: pointer;
+    height: 5px;
+}
+
+#volumeButton {
+    cursor: pointer;
+}
+
+#volumeButton:hover{
+    font-size: 26px;
+    gap: 9px
+}

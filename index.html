@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waveplayer</title>
+    <link rel="icon" type="image/png" href="Resources/Logo.png">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="resources/Logo.png" alt="Waveplayer">Waveplayer</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="playlist">
+            <div class="playlist-banner">
+                <img src="resources/Banner/main-banner.jpg" alt="">
+            </div>
+            <div class="playlist-details">
+                <h1>Best of Lata Mangeshkar</h1>
+                <h5>Best of Lata Mangeshkar including Lag Ja Gale, Rahein Na Rahein Hum, Ajib Dastan, Mera Saya Sath
+                    Hoga</h5>
+            </div>
+        </div>
+
+        <div class="song-list">
+            <div class="song">
+                <img alt="Lag ja gale">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">4:18</span> <i id="0"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Naam Goom Jayega">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">5:35</span> <i id="1"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Rahen na Rahen">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">4:26</span> <i id="2"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Mera Saaya Saath Hoga">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">6:03</span> <i id="3"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Dil Hoom Hoom Kare">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">3:55</span> <i id="4"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Piya Tose Naina Lage re">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">8:29</span> <i id="5"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Ajib Dastan hai yeh ">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">5:16</span> <i id="6"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Ek pyar ka nagma hai">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">6:06</span> <i id="7"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Aayega Aanewala">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">6:52</span> <i id="8"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+            <div class="song">
+                <img alt="Tujhse naraz nahin zindagi">
+                <span class="songNames"></span>
+                <span class="songListPlay"><span class="timestamp">3:40</span> <i id="9"
+                        class="songPlay fa-solid fa-play" style="color: 1B2B3B;"></i></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <div class="nowPlaying">
+            <img id="nowPlayingBanner" src="resources/Banner/1.jpeg" alt="Lag Ja Gale">
+            <span id="nowPlayingName">Lag Ja Gale Se Phir</span>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-xl" id="previous"></i>
+            <i class="fa-solid fa-backward fa-xl" id="seekPrevious"></i>
+            <i class="fa-solid fa-play fa-xl" id="masterPlay"></i>
+            <i class="fa-solid fa-forward fa-xl" id="seekNext"></i>
+            <i class="fa-solid fa-forward-step fa-xl" id="next"></i>
+        </div>
+
+        <input type="range" name="range" id="progressBar" min="0" max="100" value="0">
+
+        <div class="volumeSection">
+            <i class="fa-solid  fa-volume-high fa-xl" id="volumeButton"></i>
+            <input type="range" name="range" id="volumeBar" min="0" max="1" step="0.01" value="1">
+        </div>
+    </div>
+    <script src="Scripts/script.js"></script>
+</body>
+
+</html>
